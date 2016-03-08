@@ -1,10 +1,10 @@
 <?php
-/*---CREATED BY Corey Faulkerson. Find me at dudermang.com ---*/
+---CREATED BY Corey Faulkerson. Find me at dudermang.com ---*/
 function checkserve() {
 //set ip address of the developement server
-$dserver = '104.131.219.41';
+$dserver = '192.168.0.20';
 //set ip address of the production server
-$pserver = '104.236.161.234';
+$pserver = '192.168.0.234';
 
 if($_SERVER['SERVER_ADDR']==$dserver)
 	{
